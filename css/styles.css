@@ -127,8 +127,27 @@
    text-decoration: none;
  }
 
- .contact-email {
-   margin-left: 50px;
+ .contact-phone {
+   margin-left: 10px;
+ }
+
+ .contact-email-box{
+  display: flex;
+  align-items: center;
+ }
+
+ .contact-phone-box{
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+ }
+
+ .email-icon{
+  margin-right: 10px;
+ }
+
+ .phone-icon{
+  margin-left: auto;
  }
 
  .contact:hover,
