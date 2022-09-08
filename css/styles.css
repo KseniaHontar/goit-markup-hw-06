@@ -118,7 +118,10 @@
    list-style: none;
  }
 
- .contact {
+ .contact-link {
+  display: flex;
+  align-items: center;
+
    font-weight: 500;
    font-size: 14px;
    line-height: 1.14;
@@ -127,37 +130,48 @@
    text-decoration: none;
  }
 
- .contact-phone {
-   margin-left: 10px;
- }
 
- .contact-email-box{
-  display: flex;
-  align-items: center;
- }
-
- .contact-phone-box{
-  display: flex;
-  align-items: center;
-  margin-left: 30px;
+ .email-icon,
+ .phone-icon {
+   fill: #757575;
  }
 
  .email-icon{
-  margin-right: 10px;
+  width: 16px;
+  height: 12px;
  }
-
+ 
  .phone-icon{
-  margin-left: auto;
+  width: 10px;
+    height: 16px;
+ }
+ 
+
+    .contact-link:hover,
+    .contact-link:focus {
+      color: var(--brand-color);
+  
+    }
+  
+    .contact-link:hover .contact-icon,
+    .contact-link:focus .contact-icon
+     {
+      fill: var(--brand-color);
+    }
+
+
+ .contact-list-item{
+  margin-left: 30px;
  }
 
- .contact:hover,
- .contact:focus {
-   color: var(--brand-color);
+ .contact-icon{
+  margin-right: 10px;
  }
 
  /* секція "герой"*/
  .section-title {
    background-color: #2F303A;
+   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/Img-hero.jpg');
    text-align: center;
    height: 600px;
  }
@@ -221,6 +235,16 @@
    padding: 0;
 
    list-style: none;
+ }
+
+ .advantage-icon-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: #F5F4FA;
+  width: 270px;
+  height: 120px;
  }
 
  .advantage-title {
@@ -453,6 +477,11 @@
    text-decoration: none;
  }
 
+ .address-link:hover,
+ .address-link:focus{
+  color: #2196F3;
+ }
+
  .contacts-link {
    display: inline-block;
    margin-bottom: 9px;
@@ -466,8 +495,8 @@
    text-decoration: none;
  }
 
- .contacts:hover,
- .contacts:focus {
+ .contacts-link:hover,
+ .contacts-link:focus {
    color: var(--brand-color);
  }
 
