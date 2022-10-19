@@ -288,6 +288,10 @@
    justify-content: center;
  }
 
+ .img-item{
+  position: relative;
+ }
+
  .title-services {
    margin-bottom: 59px;
 
@@ -301,13 +305,14 @@
  }
  .img-services{
   position: relative;
+  height: 294px;
  }
 
 .services-description{
   position: absolute;
   padding-top: 27px;
   padding-bottom: 27px;
-  bottom: 4px;
+  bottom: 0;
   width: 370px;
 
   text-align: center;
