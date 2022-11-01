@@ -46,12 +46,14 @@
 
  /*header page*/
  .header {
-  top: 0;
-   border-bottom: 1px solid #ECECEC;
+   top: 0;
+   left: 0;
    position: fixed;
    width: 100%;
-   background-color: #FFFFFF;
    z-index: 1;
+
+   background-color: #FFFFFF;
+  border-bottom: 1px solid #ECECEC;
  }
 
  .nav-box {
