@@ -95,6 +95,8 @@
  }
 
  .menu-nav-link {
+  display: flex;
+  justify-content: center;
    font-weight: 500;
    font-size: 14px;
    line-height: 1.14;
@@ -108,8 +110,7 @@
    margin-right: 50px;
  }
  
- .menu-nav-link::after{
-  display: block;
+ .line-decor::after{
   margin: auto;
   bottom: 0px;
   
@@ -121,6 +122,10 @@
   background-color: var(--brand-color);
   border-radius: 2px;
  }
+/* 
+ .line-decor:active::after{
+opacity: 100%;
+ } */
 
  /*псевдокласи стану навігації*/
  .menu-nav-link:hover,
@@ -187,7 +192,7 @@
 
  .contact-icon{
   margin-right: 10px;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)йкййййййййййййййййййй;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
  /* секція "герой"*/
