@@ -750,6 +750,17 @@
  }
 
  .close-modal-icon{
-  
-  background-color: red;
+ stroke: rgba(0, 0, 0, 0.1);;
  }
+
+ .close-modal-btn{
+  padding: 0;
+  border: 0;
+  background-color: #FFFFFF;
+ }
+
+.icon-btn-wrap{
+position: absolute;
+    top: 8px;
+    right: 8px;
+  }
