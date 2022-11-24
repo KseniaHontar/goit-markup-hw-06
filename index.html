@@ -458,18 +458,27 @@
               <span class="input-title">Имя</span>
               <input type="text" name="user-name" class="form-input" required/>
             </label>
+
              <label>
               <span class="input-title">Телефон</span>
               <input type="tel" name="tel" class="form-input" required/>
             </label>
+
              <label>
               <span class="input-title">Почта</span>
               <input type="email" name="email" class="form-input" required/>
             </label>
+
             <label>
               <span class="input-title">Комментарий</span>
              <textarea name="user-comment" class="form-comment" placeholder="Введите текст"></textarea>
             </label>
+
+            <div class="policy-wrap">
+            <input type="checkbox" value="Соглашаюсь с рассылкой и принимаю Условия договора" name="policy" id="policy" class="distr-policy"/>
+            <label for="policy" >Соглашаюсь с рассылкой и принимаю <a href="" class="policy-link">Условия договора</a></label>
+            </div>
+            
             <button type="submit" class="form-btn">Отправить</button>
             </form>
         <div class="icon-btn-wrap">
