@@ -598,6 +598,10 @@
    fill: #FFFFFF;
  }
 
+ .join-contacts{
+  margin-right: 93px;
+ }
+
  .button-list {
    display: flex;
    margin-bottom: 50px;
@@ -723,7 +727,72 @@
  .btn-item {
    margin-right: 8px;
  }
+ /* footer-input */
+ .footer-input-wrap{
+  display: flex;
+  align-items: center;
+ }
+ .footer-input-title{
+  margin: 0;
+  margin-bottom: 20px;
 
+  font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+  
+    color: #FFFFFF;
+ }
+
+ .input-distrib{
+  margin-right: 12px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  width: 358px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: #2f303a02;
+ }
+
+ .input-distrib::placeholder{
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+ }
+
+ .btn-distrib{
+  display: flex;
+  padding: 10px 28px;
+
+  height: 50px;
+  background-color: var(--brand-color);
+  border-radius: 4px;
+  border: 1px solid #2196F3;
+  font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.8;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+
+ }
+/* .icon-send-wrap{
+  display: flex;
+} */
+
+ .icon-send{
+  margin-left: 10px;
+  fill: #FFFFFF;
+ }
+/* bacdrop */
  .backdrop{
   position: fixed;
   top: 0;
