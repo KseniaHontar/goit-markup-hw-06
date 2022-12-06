@@ -245,6 +245,11 @@
    list-style: none;
  }
 
+  .advantage-list__item {
+   display: inline-block;
+   width: 270px;
+ }
+
  .advantage-icon-box{
   display: flex;
   justify-content: center;
@@ -255,7 +260,7 @@
   height: 120px;
  }
 
- .advantage-title {
+ .advantage-list__title {
    margin-bottom: 10px;
 
    font-weight: 700;
@@ -266,7 +271,7 @@
    color: var(--primary-text-color);
  }
 
- .advantage-description {
+ .advantage-list__description {
    padding-left: 0;
 
    font-size: 14px;
@@ -275,17 +280,12 @@
    color: #757575;
  }
 
- .advantage-list-item {
-   display: inline-block;
-   width: 270px;
- }
-
- .advantage-list-item:not(:last-child) {
+ .advantage-list__item:not(:last-child) {
    margin-right: 30px;
  }
 
  /* Services Styles */
- .img-serv-list {
+ .serv-list {
    display: flex;
    margin-top: 0px;
    margin-bottom: 0px;
@@ -310,7 +310,7 @@
   height: 294px;
  }
 
-.services-description{
+.img-services__text{
   position: absolute;
   padding-top: 27px;
   padding-bottom: 27px;
@@ -346,7 +346,7 @@
    color: var(--primary-text-color);
  }
 
- .team-list {
+ .team-card {
    display: flex;
    gap: 30px;
    margin-top: 0;
@@ -354,7 +354,7 @@
  }
 
 
- .team-card {
+ .team-card__item {
    display: block;
    margin: auto;
    border-radius: 0px 0px 4px 4px;
@@ -368,11 +368,11 @@
    margin-bottom: 30px;
  }
 
- .worker-info-box {
+ .worker-meta {
    display: block;
  }
 
- .team-worker-name {
+ .worker-meta__name {
    margin-bottom: 10px;
 
    font-weight: 500;
@@ -383,7 +383,7 @@
    color: #212121;
  }
 
- .team-worker {
+ .worker-meta__text {
    margin-top: 0px;
    margin-bottom: 16px;
 
@@ -394,14 +394,14 @@
    color: #757575;
  }
 
- .team-soc {
+ .team-icon {
    margin-bottom: 30px;
    display: flex;
    justify-content: center;
    gap: 10px;
  }
 
- .team-soc-link {
+ .team-icon__link {
    width: 44px;
    height: 44px;
    border-radius: 50%;
@@ -412,18 +412,18 @@
    transition: bacground-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
- .team-soc-icon {
+ .team-icon__icon {
    fill: #AFB1B8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
- .team-soc-link:hover,
- .team-soc-link:focus {
+ .team-icon__link:hover,
+ .team-icon__link:focus {
    background-color: #2196F3;
  }
 
- .team-soc-link:hover .team-soc-icon,
- .team-soc-link:focus .team-soc-icon {
+ .team-icon__link:hover .team-icon__icon,
+ .team-icon__link:focus .team-icon__icon {
    fill: #FFFFFF;
  }
 
@@ -491,16 +491,17 @@
    align-items: baseline;
  }
 
- .address-box {
+.logo--indent {
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  margin-right: 0px;
+}
+ .address {
    width: 231px;
    margin-right: 70px;
  }
 
- .footer .logo {
-   color: #FFFFFF;
- }
-
- .address-link {
+ .address-list__link {
    margin-bottom: 9px;
    display: inline-block;
 
@@ -513,8 +514,8 @@
    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
- .address-link:hover,
- .address-link:focus{
+ .address-list__link:hover,
+ .address-list__link:focus{
   color: #2196F3;
  }
 
@@ -703,11 +704,6 @@
    cursor: pointer;
  }
 
-
- .logo-footer {
-   margin-bottom: 20px;
-   margin-right: 0px;
- }
 
  .btn-item {
    margin-right: 8px;
