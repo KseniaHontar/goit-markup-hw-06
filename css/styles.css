@@ -705,7 +705,7 @@
  }
 
 
- .btn-item {
+ .button-list__item {
    margin-right: 8px;
  }
  /* footer-input */
@@ -833,7 +833,7 @@ position: absolute;
   }
 
   /* form */
-  .form-title{
+  .modal__title{
 margin-bottom: 12px;
 
 font-style: normal;
@@ -846,7 +846,7 @@ letter-spacing: 0.03em;
 color: #212121;
   }
 
-.form-input{
+.modal-form__input{
 width: 100%;
 height: 40px;
 left: 576px;
@@ -859,12 +859,12 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
   }
 
-.form-input:focus{
+.modal-form__input:focus{
   outline: none;
 border-color: #2196F3;;
 }
 
-.form-input:focus+.icon-input{
+.modal-form__input:focus+.icon-input{
   fill: var(--brand-color);
 }
 
@@ -885,7 +885,7 @@ border-color: #2196F3;;
       border: var(--brand-color);
   }
 
-  .input-title{
+  .input-field__title{
     display: block;
     margin-bottom: 4px;
     font-style: normal;
