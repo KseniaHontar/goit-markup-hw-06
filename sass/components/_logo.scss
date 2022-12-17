@@ -1,0 +1,17 @@
+.logo-header{
+    @extend %logo;
+    color: $color-text;
+    margin-right: 93px;
+}
+.logo__text{
+font-family: $logo-font;
+  font-weight: $font-weight-bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: $primary-color;
+}
+.logo-footer{
+    @extend %logo;
+    color: $second-color-text;
+}
