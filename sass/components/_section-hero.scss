@@ -2,6 +2,7 @@
     margin: auto;
     height: 600px;
     max-width: 1600px;
+    text-align: center;
 
     background-color: $second-color;
 }
@@ -21,4 +22,13 @@
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+}
+
+.btn-order{
+    @include buttons();
+
+    &:hover,
+    &:focus{
+    background-color: $btn-hover;
+    }
 }
