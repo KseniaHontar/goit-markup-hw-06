@@ -9,7 +9,6 @@
 }
 
 .nav-list{
-    @extend %list;
     display: flex;
     gap: 50px;
     
@@ -37,7 +36,6 @@
 }
 
 .contact-list {
-    @extend %list;
     display: flex;
     margin-left: auto;
 

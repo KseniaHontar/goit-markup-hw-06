@@ -1,0 +1,28 @@
+.advantage-list{
+    @extend .container;
+    @extend %section;
+    display: flex;
+    gap: 30px;
+    margin: auto;
+}
+
+.advantage-list__item{
+    width: 270px;
+}
+.advantage-icon-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 100px;
+    margin-bottom: 30px;
+    background-color: $icon-bg-color;
+}
+
+.advantage-list__title{
+    @include titles();
+    margin-bottom: 10px;
+}
+
+.advantage-list__description{
+    @include second-text(14px, 1.7)
+}

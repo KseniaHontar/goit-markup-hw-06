@@ -14,7 +14,27 @@ p {
   margin-bottom: 0;
 }
 
-.container, .nav-box {
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  margin: -1px;
+}
+
+.container, .advantage-list, .nav-box {
   margin: auto;
   padding: 0 15px;
   width: 1230px;
@@ -30,10 +50,9 @@ p {
   text-decoration: none;
 }
 
-.contact-list, .nav-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.advantage-list {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .logo-header {
@@ -195,4 +214,53 @@ p {
 }
 .btn-order:hover, .btn-order:focus {
   background-color: #188ce8;
+}
+
+.advantage-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  margin: auto;
+}
+
+.advantage-list__item {
+  width: 270px;
+}
+
+.advantage-icon-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  background-color: #F5F4FA;
+}
+
+.advantage-list__title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+.advantage-list__description {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
 }/*# sourceMappingURL=main.css.map */

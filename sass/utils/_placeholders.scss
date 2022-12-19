@@ -1,4 +1,3 @@
-
 %logo{
 font-family: $logo-font;
 font-style: normal;
@@ -8,9 +7,7 @@ line-height: 1.19;
 text-decoration: none;
 }
 
-%list{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-
+%section{
+ padding-top: 94px;
+padding-bottom: 94px;   
 }
