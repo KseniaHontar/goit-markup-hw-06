@@ -1,5 +1,5 @@
 .header {
-    background-color: $second-color-text;
+    background-color: $white-text;
     border-bottom: 1px solid #ececec;
 }
 .nav-box{
@@ -25,7 +25,7 @@
     letter-spacing: 0.02em;
     color: $color-text;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    
     &:hover,
     &:focus{
         color: $primary-color;
@@ -50,7 +50,7 @@
 
 .contact-list__icon{
     fill: $description-color;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-list__link{

@@ -1,0 +1,31 @@
+.services-wrap {
+    @extend .container;
+}
+
+.title-services {
+    @include titles();
+    margin-bottom: 50px;
+}
+
+.serv-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.img-services{
+    position: relative;
+}
+
+.img-services__text{
+    @extend .paragraph-basic;
+    position: absolute;
+    bottom: 2px;
+
+    padding-top: 27px;
+    width: 370px;
+    height: 70px;
+    text-align: center;
+    background-color: $bg-serv;
+
+}

@@ -19,8 +19,17 @@
 }
 
 .advantage-list__title{
-    @include titles();
     margin-bottom: 10px;
+    
+font-family: $main-font;
+    font-style: normal;
+    font-weight: $font-weight-bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: $color-text;
 }
 
 .advantage-list__description{

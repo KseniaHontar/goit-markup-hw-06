@@ -34,11 +34,22 @@ ul {
   margin: -1px;
 }
 
-.container, .advantage-list, .nav-box {
+.container, .services-wrap, .advantage-list, .nav-box {
   margin: auto;
   padding: 0 15px;
   width: 1230px;
   /*outline: 1px solid red;*/
+}
+
+.paragraph-basic, .img-services__text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 .logo-footer, .logo-header {
@@ -133,8 +144,8 @@ ul {
 
 .contact-list__icon {
   fill: #757575;
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-list__link {
@@ -244,6 +255,7 @@ ul {
 }
 
 .advantage-list__title {
+  margin-bottom: 10px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -252,7 +264,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
-  margin-bottom: 10px;
 }
 
 .advantage-list__description {
@@ -263,4 +274,40 @@ ul {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.title-services {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+}
+
+.serv-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+}
+
+.img-services {
+  position: relative;
+}
+
+.img-services__text {
+  position: absolute;
+  bottom: 2px;
+  padding-top: 27px;
+  width: 370px;
+  height: 70px;
+  text-align: center;
+  background-color: rgba(47, 48, 58, 0.8);
 }/*# sourceMappingURL=main.css.map */
