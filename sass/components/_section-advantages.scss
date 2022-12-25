@@ -1,6 +1,5 @@
 .advantage-list{
     @extend .container;
-    @extend %section;
     display: flex;
     gap: 30px;
     margin: auto;

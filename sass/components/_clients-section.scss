@@ -1,0 +1,32 @@
+.title-clients{
+    margin-bottom: 50px;
+    @extend %titles;
+}
+
+.clients-list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.clients-list__link{
+    display: flex;
+    padding: 16px 32px;
+    border: $icon-color 1px solid;
+    border-radius: $main-border-radius;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover .client-list__icon,
+    &:focus .client-list__icon{
+        fill: $primary-color;
+    }
+    &:hover,
+    &:focus{
+        border: 1px solid $primary-color;
+    }
+}
+
+.client-list__icon {
+    fill: $icon-color;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

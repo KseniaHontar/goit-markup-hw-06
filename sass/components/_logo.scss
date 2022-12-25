@@ -12,6 +12,8 @@ font-family: $logo-font;
   color: $primary-color;
 }
 .logo-footer{
+  display: inline-block;
+  margin-bottom: 20px;
     @extend %logo;
     color: $white-text;
 }

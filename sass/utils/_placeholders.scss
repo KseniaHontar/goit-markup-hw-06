@@ -7,7 +7,14 @@ line-height: 1.19;
 text-decoration: none;
 }
 
-%section{
- padding-top: 94px;
-padding-bottom: 94px;   
+%titles {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: $font-weight-bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: $color-text;
 }

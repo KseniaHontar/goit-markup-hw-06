@@ -1,11 +1,10 @@
 .services-wrap {
     @extend .container;
-
     padding-bottom: 94px;
 }
 
 .title-services {
-    @include titles();
+    @extend %titles;
     margin-bottom: 50px;
 }
 
