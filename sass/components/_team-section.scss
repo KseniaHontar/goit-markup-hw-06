@@ -56,20 +56,19 @@ margin-bottom: 30px;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    transition: bacground-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover,
+    @include transition(background-color);
+        &:hover,
     &:focus{
         background-color: $primary-color;
     }
 
      &:hover .team-icon__icon,
     &:focus .team-icon__icon{
-        fill: $white-text;
+        fill: $white-color;
     }
 }
 
 .team-icon__icon{
     fill: $icon-color;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+    @include transition(fill);
 }
