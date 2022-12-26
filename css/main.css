@@ -221,7 +221,6 @@ ul {
 }
 
 .btn-order {
-  display: inline-block;
   padding: 10px 32px;
   background-color: #2196F3;
   font-weight: 700;
@@ -522,8 +521,26 @@ ul {
   fill: #fff;
 }
 
+.footer-input-title {
+  margin-bottom: 20px;
+}
+
+.footer-input-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .btn-distrib {
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 10px 32px;
   background-color: #2196F3;
   font-weight: 700;
@@ -540,7 +557,20 @@ ul {
 }
 
 .icon-send {
+  margin-left: 10px;
   fill: #fff;
+}
+
+.input-distrib {
+  margin-right: 12px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  width: 358px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 0px 0px 4px 4px;
+  outline: none;
+  background-color: #2F303A;
 }
 
 body {

@@ -67,11 +67,18 @@ margin-bottom: 20px;
 }
 
 .footer-input-title{
+  margin-bottom: 20px;
     @extend .paragraph-basic;
+}
+
+.footer-input-wrap {
+  display: flex;
+  align-items: center;
 }
 
 .btn-distrib{
   display: flex;
+  align-items: center;
     @include buttons();
 }
 
@@ -80,7 +87,16 @@ margin-bottom: 20px;
     fill: $white-color;
 }
 
-.footer-input-wrap{
-    display: flex;
-  align-items: center;
+.input-distrib{
+  margin-right: 12px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  width: 358px;
+  
+  border: 1px solid $input-border-color;
+  border-radius: $main-border-radius;
+  outline: none;
+  background-color: $second-color;
 }
+
