@@ -116,10 +116,21 @@
 }
 
 .policy-wrap{
+display: flex;
+justify-content: center;
+align-items: center;
 margin-bottom: 30px;
 }
 
+.check-input:checked + .checkbox-text > .check-icon-wrap{
+    background-color: $primary-color;
+    border: none;
+}
+
 .checkbox-text{
+    display: flex;
+    align-items: center;
+
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -166,4 +177,16 @@ margin-bottom: 30px;
     border: none;
      padding: 0;
     background-color: #ffffff;
+ }
+
+ .check-icon-wrap{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-right: 8.35px;
+     width: 16px;
+     height: 15px;
+     
+     border: 2px solid $color-text;
+     border-radius: 4px;
  }

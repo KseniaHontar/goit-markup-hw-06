@@ -728,10 +728,30 @@ body {
 }
 
 .policy-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 30px;
 }
 
+.check-input:checked + .checkbox-text > .check-icon-wrap {
+  background-color: #2196F3;
+  border: none;
+}
+
 .checkbox-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -789,4 +809,21 @@ body {
   border: none;
   padding: 0;
   background-color: #ffffff;
+}
+
+.check-icon-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 8.35px;
+  width: 16px;
+  height: 15px;
+  border: 2px solid #212121;
+  border-radius: 4px;
 }/*# sourceMappingURL=main.css.map */
