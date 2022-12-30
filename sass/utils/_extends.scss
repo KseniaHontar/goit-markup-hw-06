@@ -21,3 +21,12 @@
     
         color:$white-color;
 }
+
+.inputs{
+    
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: 1px solid $modal-border-color;
+    border-radius: $main-border-radius;
+}
